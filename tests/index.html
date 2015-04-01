@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+<h1> Running Test </h1>
+<script type="text/javascript">
+  var gui = require('nw.gui');
+  var assert = require('assert');
+  console.log(assert);
+  var failed = false;
+  try{
+    assert(assert === null, "assert does not exist!");
+  }
+  catch(e){
+    gui.App.crashBrowser();
+  }
+  
+  gui.App.quit();
+</script>
+</body>
+</html>

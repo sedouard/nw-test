@@ -1,0 +1,11 @@
+{
+  "name": "nw-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nw-test-runner": "^1.3.0"
+  }
+}

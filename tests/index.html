@@ -9,7 +9,7 @@
   console.log(assert);
   var failed = false;
   try{
-    assert(assert === null, "assert does not exist!");
+    assert(assert !== null, "assert does not exist!");
   }
   catch(e){
     gui.App.crashBrowser();

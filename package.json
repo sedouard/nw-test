@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "nw/linux-64/nw tests"
+    "test": "test.sh"
   },
   "author": "",
   "license": "ISC",
